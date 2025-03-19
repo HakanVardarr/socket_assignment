@@ -1,5 +1,9 @@
 # Socket Assignment: Client-Server Communication
 
+- **University:** Acıbadem University
+- **Course Name:** Computer Networks and Social Networks (C312)
+- **Instructor:** Mehmet Serkan Apaydın
+
 ## Overview
 This project consists of a simple client-server model implemented in C++ using sockets. The server listens for incoming connections, while the client connects to the server, sends a number, and receives a randomly generated number from the server. The sum of these numbers is then calculated and displayed.
 
@@ -20,23 +24,23 @@ This project consists of a simple client-server model implemented in C++ using s
 ## Compilation & Execution
 ### Compile using g++
 ```sh
- g++ -Wall -Wextra -std=c++20 server.cpp -o server
- g++ -Wall -Wextra -std=c++20 client.cpp -o client
+g++ -Wall -Wextra -std=c++20 server.cpp -o server
+g++ -Wall -Wextra -std=c++20 client.cpp -o client
 ```
 
 ### Compile using Makefile
 ```sh
- make
+make
 ```
 
 ### Run the Server
 ```sh
- ./server
+./server
 ```
 
 ### Run the Client
 ```sh
- ./client
+./client
 ```
 
 ## Notes
